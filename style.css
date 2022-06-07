@@ -85,7 +85,7 @@ form input{
 
 #first-container h1 {
     font-family: "Poppins";
-    font-size: 75x;
+    font-size: 75px;
     font-weight: 700;
     width: 830px;
     text-align: center;
@@ -96,29 +96,35 @@ form input{
     background-color: rgba(232,217,217,.3);
     flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: -25px;;
+    margin-top: 0px;
     text-align: center;
-    width: 450px;
+    width: auto;
     font-weight: 700;
 }
 
-.container {
+#first-container article{
     display: flex;
-    flex-direction: row;
-    height: 50px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 10px;
     padding: 5px 10px;
-    margin-top: 50px;
+    margin-top: 0px;
     align-items: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding-bottom: 80px;
 }
 
-section div .btn-div{
+#btn-div{
     text-decoration: none;
     color: white;
 }
 
-section div .btn-div{
+#btn-div a{
     color: black;
     background-color: #FB3B49;
     text-decoration: none;
@@ -128,8 +134,9 @@ section div .btn-div{
     box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
-.btn btn-white{
-    background-color: white;
+#btn-div .btn-white {
+    background-color: rgba(232,217,217,.01);
+    box-shadow:none;
     text-decoration: none;
     color: black;
     padding: 10px 45px;
@@ -137,3 +144,116 @@ section div .btn-div{
     font-weight: 900;
 }
 
+/*Section 2*/
+
+#second-container{
+    height: 450px;
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+	justify-content: center;
+	align-content: center;
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    font-weight: 700;
+}
+
+#second-container img {
+    margin-top: 20px;
+    width: 180px;
+    align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+#second-container h2 {
+    font-size: 30px;
+    font-weight: 600;
+    transform:skew(9deg,0deg);
+    font-style: italic;
+    background-color: rgba(255,204,53,.4);
+    margin: 30px;
+    padding: 0 25px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#second-container article{
+    text-align: center;
+    width: 650px;
+    height: 100px;
+}
+
+/*Section 3*/
+
+
+#features-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+    background-color: rgba(232,217,217,.3);
+}
+
+#features-container img{
+    width: 25px;
+    margin-left: 25px;
+    margin-top: -100px;
+}
+
+#features-container .features{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	align-items:center;
+	align-content: center;
+    position: relative;
+}
+
+#features-container  .feature-card {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	align-items:center;
+	align-content: center;
+    position: relative;
+    margin: 80px 10px;
+}
+
+.features-card div p {
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
+
+#features-container div h3 {
+    margin-left: -50px;
+    color: #ED1C24;
+}
+
+.create-button{
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    width: 150px;
+    color: black;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    padding: 10px 45px;
+    margin: 15px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    text-align: center;
+}
