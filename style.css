@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+header div form .btn-red {
+    background-color: #fb3e44;
+    text-decoration: none;
+    color: white;
+    padding: 10px 12px 10px 10px;
+    margin: 0 auto;
+    border: none; 
+}
+
+.btn-head{
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn-head-border {
+    border-radius: black;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    padding: 3px 15px;
+}
+.login-buttons{
+    padding: 0px;
+    margin-top: -20px;
+}
+
+div img{
+    width: 80px;
+}
+
+form img{
+    width: 22px;
+    margin-right: 1rem;
+    padding: 25px;
+    position: absolute;
+}
+
+form input{
+    text-indent: 20px;
+    width: 1000px;
+    height: auto;
+    background-color: rgba(0,0,0,.05);
+    border: rgba(0,0,0,.05); 
+    padding: 10px;
+    margin: 20px;
+}
+
+/*Section 1*/
+
+
+#first-container h1 {
+    font-family: "Poppins";
+    font-size: 75x;
+    font-weight: 700;
+    width: 830px;
+    text-align: center;
+}
+
+#first-container {
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;;
+    text-align: center;
+    width: 450px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+section div .btn-div{
+    text-decoration: none;
+    color: white;
+}
+
+section div .btn-div{
+    color: black;
+    background-color: #FB3B49;
+    text-decoration: none;
+    color: white;
+    padding: 10px 45px;
+    margin-right: 15px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.btn btn-white{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px 45px;
+    margin-left: 15px;
+    font-weight: 900;
+}
+
